@@ -1,0 +1,59 @@
+<ALU>
+    <not>
+        ALU mode select
+        000 ='not',001 ='and',010='or',011='+',111='-'
+        000
+        Input A
+        ex) 0001
+        0101
+
+        Answer = 1010
+    <and>
+        ALU mode select
+        000 ='not',001 ='and',010='or',011='+',111='-'
+        001
+        Input A
+        ex) 0001
+        0101
+        Input B
+        ex) 1111
+        0011
+
+        Answer = 0001
+    <or>
+        ALU mode select
+        000 ='not',001 ='and',010='or',011='+',111='-'
+        010
+        Input A
+        ex) 0001
+        0101
+        Input B
+        ex) 1111
+        0011
+
+        Answer = 0111
+    <add>
+        ALU mode select
+        000 ='not',001 ='and',010='or',011='+',111='-'
+        011
+        Input A
+        ex) 0001
+        0101
+        Input B
+        ex) 1111
+        0011
+
+        Answer = 01000
+    <minus>
+        ALU mode select
+        000 ='not',001 ='and',010='or',011='+',111='-'
+        111
+        Input A
+        ex) 0001
+        1011
+        Input B
+        ex) 1111
+        0101
+
+        Answer = 0110
+<end>
